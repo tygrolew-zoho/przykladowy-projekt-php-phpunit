@@ -6,4 +6,4 @@ php:
   - hhvm
 install:
   - composer install --no-dev --quiet
-script: php index.php
+script: php vendor/phpunit/phpunit/phpunit ./tests
